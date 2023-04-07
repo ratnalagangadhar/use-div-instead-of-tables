@@ -1,0 +1,86 @@
+<html>
+<head>
+<style>
+body {
+     background: #FFFFFF;
+	 margin: auto;
+	 font-family: century-gothic;
+	 color: #808080;
+}
+a {
+     color: #3A41A1;
+}
+
+}
+#header {
+     width:100%
+	 color: #000000;
+	 margin-bottom: 15px;
+}
+#content {
+    width: 100%
+	background: #DAFFF5;
+	margin-top: 10px;
+	border-collapse:collapse;
+	font-size: 14px;
+	display: table;
+}
+ .row{
+     display: table-row;
+	 pdding: 8px;
+	 border: 1px solid black;
+}
+ .cell-header {
+     padding: 8px;
+	 display: table-cell;
+}
+ .cell-left {
+      display: table-cell;
+	  padding: 8px;
+	  border: 1px solid black;
+	  color: #006BF2;
+	  width: 90px;
+}
+ .cell-right{
+      display: table-cell;
+	  padding: 8px;
+	  border: 1px solid black;
+	  color: #000000;
+	  text-align: left;
+}
+</style>
+  </head>
+ <body>
+ 
+          <div id='content">
+		       <id class="row">
+                   <div class="cell-header"style="color: #FF6A00;font-weight:bold; text-transform:capitalize;text-align:left;">NAME</div>
+				   <div class="cell" style="text-align: right;><a href="#" style="color:#006BF2;"></a></div>
+				 </div>
+				 <div class="row">
+				    <div class="cell-left">
+					                       TITLE
+										  </div>
+										  <div class="cell">
+										      VALUE
+										</div>
+									</div>
+									<div class="row">
+									      <div class="cell-left">
+										      TITLE
+											</div>
+											<div class="cell-right">
+											  VALUE
+											</div>
+										</div>
+										<div class="row">
+										    <div class="cell-left">
+											  TITLE
+											</div>
+											<div class="cell-right">
+											  VALUE
+											</div>
+										</div>
+									</div>
+									
+								</div></body></html>
